@@ -18,7 +18,7 @@ Auto-generate TypeScript interfaces from Django models for use in modern fronten
 2. Adjust the config at the top of the script:
 
 ```python
-BACKEND_DIR = "api/models"  # or "apps" or "myproject/apps"
+BACKEND_DIR = "appname/models"  # or "apps" or "myproject/apps"
 FRONTEND_DIR = "../frontend/src/lib/types/models"
 ```
 
