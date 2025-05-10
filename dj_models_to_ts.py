@@ -5,7 +5,7 @@
 
 This script scans your Django model files and generates matching TypeScript interfaces
 for frontend type safety. It's optimized for projects using Django + SvelteKit (or similar),
-and assumes a fairly flat, conventional `models.py` structure.
+and assumes a fairly flat, conventional `models.py` or models/filename.py structure.
 
 ✅ Use Cases:
 - Keeps backend and frontend types in sync
