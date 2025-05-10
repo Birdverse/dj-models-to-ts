@@ -39,7 +39,7 @@ from pathlib import Path
 
 # 🔧 CONFIG — Change these paths based on your project structure
 # If you have multiple apps, set this to the root directory containing all apps
-BACKEND_DIR = "api/models"  # or e.g., "myproject/apps"
+BACKEND_DIR = "appname/models"  # or e.g., "myproject/apps"
 FRONTEND_DIR = "../frontend/src/lib/types/models"  # TS output location
 
 # 🧠 Mapping of Django field types to TypeScript types
